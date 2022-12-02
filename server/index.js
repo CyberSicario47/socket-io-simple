@@ -12,5 +12,5 @@ io.on('connection', (socket)=>{
 })
 
 http.listen(9000,()=>{
-    console.log('the server is running.....')
+    console.log('the server is running on port 9000')
 })
